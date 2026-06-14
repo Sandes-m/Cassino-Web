@@ -27,3 +27,13 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+### Node/Frontend ###
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+
+### Java/Backend Build ###
+backend/target/
+target/

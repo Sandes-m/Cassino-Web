@@ -1,8 +1,0 @@
-com\cassino\controller\GameController.class
-com\cassino\CassinoApplication.class
-com\cassino\model\GameStatus.class
-com\cassino\config\CorsConfig$1.class
-com\cassino\model\SpinResult.class
-com\cassino\config\CorsConfig.class
-com\cassino\service\GameService.class
-com\cassino\model\DepositRequest.class
