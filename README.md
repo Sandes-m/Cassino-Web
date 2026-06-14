@@ -2,7 +2,7 @@
 
 ---
 
-## 📋 Visão Geral do Projeto / Project Overview
+## 🔎 Visão Geral do Projeto / Project Overview
 
     Este projeto representa a evolução avançada da aplicação original de linha de comando em Java para um 
     simulador de cassino web completo (Full-Stack). A aplicação foi totalmente desenvolvida pelo agente de 
@@ -21,7 +21,7 @@ em uma aplicação web moderna de alto nível, compreendendo as arquiteturas sug
 
 ---
 
-## 🧱 Estrutura do Projeto / Project Structure
+## 🗂️ Estrutura do Projeto / Project Structure
 
 A aplicação foi organizada em um modelo multi-módulo contendo o backend Java e o frontend Node/React, gerenciados de forma independente.
 
@@ -62,7 +62,7 @@ Cassino-Web/
 
 ---
 
-## 🛠️ Tecnologias e Ferramentas / Technologies & Tools
+## 🧰 Tecnologias e Ferramentas / Technologies & Tools
 
 | Linguagem | Framework (Backend) | Framework (Frontend) | Controle de Versão | Ferramentas de Apoio |
 | :---: | :---: | :---: | :---: | :---: |
