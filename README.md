@@ -1,5 +1,7 @@
 # Java Slot Machine - Versão Full-Stack Web
 
+> 🎮 **Jogue agora na Web / Play Live on the Web:** [java-cassino-web.vercel.app](https://java-cassino-web.vercel.app)
+
 ---
 
 ## 🔎 Visão Geral do Projeto / Project Overview
