@@ -130,19 +130,18 @@ Instruí e guiei a IA a implementar uma solução de áudio leve utilizando a **
 
 Esta seção explica como colocar a aplicação no ar na web para que qualquer pessoa possa acessar e jogar.
 
-### 1. Deploy do Backend no **Render** (Java 21)
-O backend em Spring Boot será hospedado no **Render**:
+### 1. Deploy do Backend no **Render** (Docker / Java 21)
+O backend em Spring Boot será hospedado no **Render** através do Dockerfile:
 1. Acesse o site do [Render](https://render.com/) e crie uma conta usando o seu login do GitHub.
 2. No painel do Render, clique no botão **"New +"** (canto superior direito) e escolha **"Web Service"**.
 3. Selecione o repositório `Cassino-Web` da lista de repositórios do seu GitHub.
 4. Preencha os campos com as seguintes configurações:
    - **Name**: `cassino-backend` (ou o nome que preferir)
-   - **Root Directory**: `backend` (indica que o Maven está nessa pasta)
-   - **Language**: `Java`
-   - **Build Command**: `./mvnw clean package -DskipTests`
-   - **Start Command**: `java -jar target/slot-machine-backend-0.0.1-SNAPSHOT.jar`
-5. Clique em **"Deploy Web Service"** no rodapé e aguarde a compilação finalizar.
+   - **Root Directory**: `backend` (importante, pois indica que o Dockerfile está nessa pasta)
+   - **Language/Runtime**: Selecione **Docker** (o Render costuma detectar isso de forma automática a partir do arquivo `Dockerfile` na pasta)
+5. Clique em **"Deploy Web Service"** no rodapé e aguarde o build do container finalizar.
 6. Uma URL pública e segura será gerada no topo da página (ex: `https://cassino-backend.onrender.com`). **Copie essa URL.**
+
 
 ### 2. Deploy do Frontend no **Vercel** (React/TypeScript)
 O frontend em Vite será hospedado na **Vercel**:
